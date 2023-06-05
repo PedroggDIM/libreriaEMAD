@@ -12,7 +12,7 @@ public interface Documento {
 	
     Categoria getCategoria();
 	
-	int getId();
+	Long getId();
 	
 	String getTitulo();
 
