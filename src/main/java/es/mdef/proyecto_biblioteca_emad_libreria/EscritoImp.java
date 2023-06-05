@@ -1,6 +1,6 @@
 package es.mdef.proyecto_biblioteca_emad_libreria;
 
-public class EscritoImp extends DocumentoImp implements Escritable{
+public abstract class EscritoImp extends DocumentoImp implements Escritable{
 
 	private int ISBN;
 	private int numpaginas;

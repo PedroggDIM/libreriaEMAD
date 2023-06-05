@@ -1,6 +1,6 @@
 package es.mdef.proyecto_biblioteca_emad_libreria;
 
-public class AudiovisualImp extends DocumentoImp implements Audiovisuable{
+public abstract class AudiovisualImp extends DocumentoImp implements Audiovisuable{
 
 	private int ISAN;
     private int duracion;
@@ -30,6 +30,8 @@ public class AudiovisualImp extends DocumentoImp implements Audiovisuable{
 	@Override
 	public Categoria getCategoria() {
 		return Categoria.audiovisual;
-	}    
+	} 
+
+
     
 }
