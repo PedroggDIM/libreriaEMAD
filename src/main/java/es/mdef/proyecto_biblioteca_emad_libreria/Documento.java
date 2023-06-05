@@ -9,7 +9,11 @@ public interface Documento {
 	List<Prestamo> getPrestamos();
 
 	// Getters y Setters de la clase
-
+	
+    Categoria getCategoria();
+	
+	int getId();
+	
 	String getTitulo();
 
 	String getAutor();
