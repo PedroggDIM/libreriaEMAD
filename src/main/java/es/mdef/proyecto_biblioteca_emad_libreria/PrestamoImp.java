@@ -3,11 +3,9 @@ package es.mdef.proyecto_biblioteca_emad_libreria;
 import java.util.Date;
 
 public class PrestamoImp implements Prestamo {	
-	//Cada préstamo tiene un documento.
+	//Cada prestamo tiene un documento.
 	private Documento documento;	
-	
 	private int idUsuario;	
-
 	private Date fechaInicio;
 	private Date fechaFin;
 	

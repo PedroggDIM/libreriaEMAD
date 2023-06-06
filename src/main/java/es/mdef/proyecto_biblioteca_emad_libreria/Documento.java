@@ -12,8 +12,6 @@ public interface Documento {
 	
     Categoria getCategoria();
 	
-	Long getId();
-	
 	String getTitulo();
 
 	String getAutor();

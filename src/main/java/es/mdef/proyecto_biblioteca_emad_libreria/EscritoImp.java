@@ -1,12 +1,10 @@
 package es.mdef.proyecto_biblioteca_emad_libreria;
 
-public abstract class EscritoImp extends DocumentoImp implements Escritable{
+public class EscritoImp extends DocumentoImp implements Escritable{
 
 	private int ISBN;
 	private int numpaginas;
 	private int tamano;
-	
-	
 
 	@Override
 	public int getISBN() {
@@ -33,5 +31,4 @@ public abstract class EscritoImp extends DocumentoImp implements Escritable{
 	public Categoria getCategoria() {
 		return Categoria.escrito;
 	}
-
 }

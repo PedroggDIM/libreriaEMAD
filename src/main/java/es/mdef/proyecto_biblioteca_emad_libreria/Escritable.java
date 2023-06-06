@@ -1,6 +1,6 @@
 package es.mdef.proyecto_biblioteca_emad_libreria;
 
-public interface Escritable {
+public interface Escritable{
 
 	Categoria getCategoria();
 
