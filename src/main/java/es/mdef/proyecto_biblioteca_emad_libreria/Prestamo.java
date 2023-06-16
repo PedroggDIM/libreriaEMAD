@@ -11,5 +11,7 @@ public interface Prestamo {
 	Date getFechaInicio();
 
 	Date getFechaFin();
+	
+	boolean isDevuelto();
 
 }

@@ -8,6 +8,7 @@ public class PrestamoImp implements Prestamo {
 	private int idUsuario;	
 	private Date fechaInicio;
 	private Date fechaFin;
+	private boolean devuelto;
 	
 	//Getter y Setter
 	
@@ -39,6 +40,13 @@ public class PrestamoImp implements Prestamo {
 	}
 	public void setFechaFin(Date fechaFin) {
 		this.fechaFin = fechaFin;
+	}
+	@Override
+	public boolean isDevuelto() {		
+		return devuelto;
+	}
+	public void setDevuelto(boolean devuelto) {
+		this.devuelto = devuelto;
 	}	
 
 }
